@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(1, 0, 10);
+}
+
+h1 {
+    font-family: "Audiowide", Arial, sans-serif;
+    color: white;
+}
+
+.display {
+    position: relative;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    z-index: -1;
+}
+
+#timeDisplay {
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    transform: translate(-50%, -50%);
+    font-family: "Chakra Petch", Arial, sans-serif;
+    font-size: 36px;
+    color: rgb(0, 255, 0);
+}
+
+button {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#start {
+    border-color: darkgreen;
+    color: darkgreen;
+}
+
+#pause {
+    border-color: darkorange;
+    color: darkorange;
+}
+
+#reset, .remove {
+    border-color: red;
+    color: red;
+}
+
+#addMarker {
+    border-color: blue;
+    color: blue;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.remove {
+    margin-left: 10px;
+}

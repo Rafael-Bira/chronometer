@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronometer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chakra Petch|Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+    <div>
+        <h1>Chronometer</h1>
+        <div class="display">
+            <img src="chronometer.png" alt="Chronometer">
+            <div id="timeDisplay">00:00:00:000</div>
+        </div>
+        <br>
+        <div class="buttons">
+            <button id="start" onclick="start()"><i class="material-icons">play_arrow</i><br>Start</button>
+            <button id="pause" onclick="pause()"><i class="material-icons">pause</i><br>Pause</button>
+            <button id="reset" onclick="reset()"><i class="material-icons">replay</i><br>Reset</button>
+            <button id="addMarker" onclick="addMarker()"><i class="material-icons">push_pin</i><br>Add time marker</button>
+        </div>
+        <ul id="markersList"></ul>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
