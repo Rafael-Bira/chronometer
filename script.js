@@ -3,7 +3,7 @@ let mins = 0;
 let secs = 0;
 let millisecs = 0;
 let interval = null;
-let display = document.getElementById("timeDisplay");
+let display = document.querySelector("#timeDisplay");
 
 function start() {
     if (interval !== null) {
@@ -57,10 +57,10 @@ function addMarker() {
     deleteBtn.setAttribute("class", "remove");
     newMarker.appendChild(deleteBtn);
     
-    // Delete the current marker
+// Delete the current marker
     deleteBtn.addEventListener("click", function removeMarker() {
         newMarker.remove();
     });
 
-    document.getElementById("markersList").appendChild(newMarker);
+    document.querySelector("#markersList").appendChild(newMarker);
 }

@@ -1,6 +1,5 @@
 body {
     display: flex;
-    justify-content: center;
     text-align: center;
     background-color: rgb(1, 0, 10);
 }
@@ -15,8 +14,8 @@ h1 {
 }
 
 img {
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    height: 60%;
     z-index: -1;
 }
 
@@ -26,11 +25,12 @@ img {
     top: 47%;
     transform: translate(-50%, -50%);
     font-family: "Chakra Petch", Arial, sans-serif;
-    font-size: 36px;
+    font-size: 26px;
     color: rgb(0, 255, 0);
 }
 
 button {
+    cursor: pointer;
     border: 2px solid;
     border-radius: 5px;
     padding: 10px;
@@ -68,5 +68,7 @@ li {
 }
 
 .remove {
+    background-color: red;
+    color: white;
     margin-left: 10px;
 }
