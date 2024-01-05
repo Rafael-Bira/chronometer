@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  text-align: center;
+  background-color: #222222;
+}
+
+h1 {
+  font-family: "Audiowide", Arial, sans-serif;
+  color: #f1f1f1;
+}
+
+button {
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

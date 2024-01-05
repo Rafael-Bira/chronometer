@@ -1,0 +1,19 @@
+.display {
+    position: relative;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+}
+
+#timeDisplay {
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    transform: translate(-50%, -50%);
+    font-family: "Chakra Petch", Arial, sans-serif;
+    font-size: 22px;
+    color: #38cc32;
+}
