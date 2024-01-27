@@ -1,10 +1,5 @@
-li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-}
-
 .remove {
     background-color: red;
-    color: white;
     margin-left: 10px;
+    color: #f1f1f1;
 }

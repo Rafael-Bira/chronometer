@@ -1,12 +1,24 @@
+:root {
+  --font-color: #ffffff;
+  --bg-color: #333333;
+}
+
 body {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  background-color: #222222;
+  color: var(--font-color);
+  background-color: var(--bg-color);
+  transition: background-color 0.3s ease;
 }
 
 h1 {
   font-family: "Audiowide", Arial, sans-serif;
-  color: #f1f1f1;
+}
+
+button, li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
@@ -15,5 +27,14 @@ button {
   border-radius: 5px;
   padding: 10px;
   margin: 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Dark theme */
+.dark-theme {
+  --font-color: #333333;
+  --bg-color: #ffffff;
 }

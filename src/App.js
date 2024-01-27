@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import ThemeSwitch from './components/ThemeSwitch/ThemeSwitch.js';
 import Display from './components/Display/Display.js';
 import StartPauseButton from './components/StartPauseButton/StartPauseButton.js';
 import ResetButton from './components/ResetButton/ResetButton.js';
@@ -62,6 +63,7 @@ const App = () => {
   return (
     <div className="App">
       <h1>Chronometer</h1>
+      <ThemeSwitch />
       <Display 
         displayTime={displayTime} 
         time={time} 

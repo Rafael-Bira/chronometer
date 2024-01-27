@@ -5,7 +5,7 @@ const MarkerButton = ({ addMarker }) => {
         <button className="addMarker" onClick={addMarker} >
             <i class="material-icons">push_pin</i>
             <br />
-            Add time marker
+            Add marker
         </button>
     );
 }
